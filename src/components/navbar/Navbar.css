@@ -1,0 +1,36 @@
+.container{
+    margin: 0 auto;
+    width: 93%;
+    margin-top: 40px;
+}
+.container nav{
+    position: relative;
+    color: #6a6b6a;
+}
+.container nav h4{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.container nav .mark{
+    font-weight: 900;
+}
+.solidBrand{
+    position: absolute;
+    top: -77%;
+    left: -7.45%;
+    font-size: 3.6rem;
+    z-index: -1;
+    color: #eae8e8;
+}
+.box{
+    background: #dddccc;
+    width: 400px;
+    height: 660px;
+    position: absolute;
+    top: 0%;
+    margin-left: -5%;
+    z-index: -9;
+}
+.outer{
+    overflow: hidden;
+}
