@@ -1,0 +1,78 @@
+.SearchInfo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.search-box{
+    margin-top: 2.5%;
+    position: relative;
+    font-family: 'Montserrat';
+    width: 25%;
+}
+.search-box input{
+    padding: 4.5%;
+    font-size: 1rem;
+    border-radius: 50px;
+    border:  none;
+    outline: none;
+    text-indent: 9px;
+    width: 75%;
+    height: 25%;
+}
+.search-box button{
+    border: none;
+    color: #fff;
+    background: #6a6b6a;
+    padding: 3.4% 5.1%;
+    border-radius: 50px;
+    margin-left: -25%;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    top: 7%;
+}
+.delivery{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5%;
+    margin-left: 5%;
+}
+.f-delivery{
+    width: 400px;
+    height: 26%;
+}
+.delivery .f-delivery,.timer{
+    font-size: 14px;
+    padding: 3.25%;
+    color: rgb(49, 53, 47);
+    background: #eae8e8;
+    position: relative;
+    border-radius: 18px;
+}
+.f-delivery .f-desc{
+    margin-top: -2%;
+}
+.timer .t-desc{
+    margin-top: -3%;
+}
+.delivery .timer{
+    margin-left: 90px;
+    padding: 3.45%;
+    width: 310px;
+    height: 26%;
+}
+.f-delivery img ,.timer img{
+    position: absolute;
+    right: 5%;
+    top: 23%;
+}
+.delivery .timer img{
+    top: 27%;
+}
+.f-desc span,.t-desc span{
+    font-weight: bold;
+    
+}
+.delivery .timer{
+    float: right;
+}
