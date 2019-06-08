@@ -1,33 +1,24 @@
-.App {
-  text-align: center;
+.container{
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 40px;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.container nav{
+    position: relative;
+    color: #6a6b6a;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container nav h4{
+    font-size: 1.4rem;
+    font-weight: 300;
 }
-
-.App-link {
-  color: #61dafb;
+.container nav .mark{
+    font-weight: 900;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.solidBrand{
+    position: absolute;
+    top: -65%;
+    left: -6%;
+    font-size: 3.2rem;
+    z-index: -1;
+    color: #eae8e8;
 }
