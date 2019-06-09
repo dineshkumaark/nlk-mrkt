@@ -16,7 +16,6 @@ class CurrentProduct extends Component{
             currency:'inr'
         });
         return(
-            <div className="container">
             <div className="currentproduct">
                 <div className="p-name">
                     <h5>{name}</h5>
@@ -53,7 +52,6 @@ class CurrentProduct extends Component{
                         <button className="p-button">Add to Basket</button>
                   </div>
                 </div>
-            </div>
             </div>
         );
     }

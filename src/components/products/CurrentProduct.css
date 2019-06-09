@@ -1,11 +1,14 @@
 .currentproduct{
     width: min-content;
+    position: relative;
+    height: 270px;
     margin-top: 2.5%;
     padding: 1.9% 2.4%;
     color: #403918;
     border-radius: 25px;
     background: linear-gradient(-240deg,#FFEB3B,rgb(250, 158, 21));
 }
+
 .p-name h5{
     text-transform: capitalize;
 }
@@ -70,4 +73,21 @@
     color: #000;
     background: #fff;
     cursor: pointer;
+}
+.allproducts{
+    display: flex;
+    flex-direction: row;
+}
+.product{
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px 0 #9E9E9E;
+    background: #fff;
+    padding: 8%;
+}
+.mapproduct{
+    width: min-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2.5% 0 0 6%;
+    grid-column-gap: 15%;
 }

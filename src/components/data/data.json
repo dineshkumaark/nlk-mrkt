@@ -1,0 +1,59 @@
+{
+    "veggie" :[
+        {  
+            "name": "banana",
+            "price": 45,
+            "weight": "1",
+            "img":"./Images/Veggie/banana.png"
+        },
+        {  
+            "name": "banana",
+            "price": 45,
+            "weight": "1",
+            "img":"./Images/Veggie/banana.png"
+        },
+        {  
+            "name": "banana",
+            "price": 45,
+            "weight": "1",
+            "img":"./Images/Veggie/banana.png"
+        },
+        {  
+            "name": "banana",
+            "price": 45,
+            "weight": "1",
+            "img":"./Images/Veggie/banana.png"
+        },
+        {  
+            "name": "banana",
+            "price": 45,
+            "weight": "1",
+            "img":"./Images/Veggie/banana.png"
+        },
+        {  
+            "name": "banana",
+            "price": 45,
+            "weight": "1",
+            "img":"./Images/Veggie/banana.png"
+        },
+        {  
+            "name": "banana",
+            "price": 45,
+            "weight": "1",
+            "img":"./Images/Veggie/banana.png"
+        },
+        {  
+            "name": "banana",
+            "price": 45,
+            "weight": "1",
+            "img":"./Images/Veggie/banana.png"
+        },
+        {  
+            "name": "banana",
+            "price": 45,
+            "weight": "1",
+            "img":"./Images/Veggie/banana.png"
+        }
+    ]
+        
+}
