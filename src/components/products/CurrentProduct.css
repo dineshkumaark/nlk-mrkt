@@ -1,0 +1,71 @@
+.currentproduct{
+    width: min-content;
+    margin-top: 2.5%;
+    padding: 1.9% 2%;
+    color: #403918;
+    border-radius: 25px;
+    background: rgb(250, 197, 21);
+}
+.p-name h5{
+    text-transform: capitalize;
+}
+.p-name select{
+    float: right;
+}
+.p-weight{
+    float: right;
+    margin-top: -12%;
+}
+.p-weight > p{
+    font-size: 10px;
+    text-align: right;
+}
+.p-weight .p-price{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.p-image{
+    margin-top: 12%;
+}
+.p-desc .w-desc{
+    margin-top: 6%;
+}
+.w-desc select {
+   float: right;
+   padding: 2% 10%;
+   border: none;
+   outline: none;
+   border-radius: 25px;
+   background: #fbda6c;
+}
+.p-or{
+    text-align: center;
+    font-size: 10px;
+    position: relative;
+    margin: 8% 0;
+    margin-top: 10%;
+}
+.p-or::after,.p-or::before{
+    content: '';
+    position: absolute;
+    width: 40%;
+    height: 5%;
+    top: 7px;
+    right: -4px;
+    background: darkgoldenrod;
+}
+.p-or::before{
+    left: -3px;
+}
+.p-basket{
+    margin-top: 15%;
+    text-align: center;
+}
+.p-basket button{
+    padding: 8% 20%;
+    border: none;
+    border-radius: 25px;
+    color: #000;
+    background: #fff;
+    cursor: pointer;
+}
