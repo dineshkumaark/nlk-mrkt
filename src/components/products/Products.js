@@ -19,7 +19,7 @@ class Products extends Component {
                          </div>
                      </div>
                      <div className="p-image">
-                         <img src={img} alt={name} width="150px" height="100px"/>
+                         <img src={img} alt={name} width="140px" height="100px"/>
                      </div>
                  </div>
              ))
