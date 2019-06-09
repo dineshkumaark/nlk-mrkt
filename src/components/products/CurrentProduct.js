@@ -6,7 +6,7 @@ class CurrentProduct extends Component{
             name: 'banana',
             price: 45,
             weight: '1',
-            img:'./Images/Veggie/banana.jpg'
+            img:'./Images/Veggie/banana.png'
         }
     }
     render(){
@@ -26,7 +26,7 @@ class CurrentProduct extends Component{
                     </div>
                 </div>
                 <div className="p-image">
-                    <img src={img} alt={name} width="150px" height="100px"/>
+                    <img src={img} alt={name} width="140px" height="100px"/>
                 </div>
                 <div className="p-desc">
                   <div className="w-desc">

@@ -1,10 +1,10 @@
 .currentproduct{
     width: min-content;
     margin-top: 2.5%;
-    padding: 1.9% 2%;
+    padding: 1.9% 2.4%;
     color: #403918;
     border-radius: 25px;
-    background: rgb(250, 197, 21);
+    background: linear-gradient(-240deg,#FFEB3B,rgb(250, 158, 21));
 }
 .p-name h5{
     text-transform: capitalize;
@@ -29,6 +29,8 @@
 }
 .p-desc .w-desc{
     margin-top: 6%;
+    font-size: 12px;
+    font-weight: 500;
 }
 .w-desc select {
    float: right;
