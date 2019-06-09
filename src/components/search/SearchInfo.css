@@ -6,7 +6,6 @@
 .search-box{
     margin-top: 2.5%;
     position: relative;
-    font-family: 'Montserrat';
     width: 25%;
 }
 .search-box input{
@@ -67,7 +66,7 @@
     top: 23%;
 }
 .delivery .timer img{
-    top: 27%;
+    top: 31%;
 }
 .f-desc span,.t-desc span{
     font-weight: bold;

@@ -67,3 +67,25 @@ nav{
     margin-top: -8px;
     cursor: pointer;
 }
+/* Product Navbar */
+.c-head , .c-ul{
+    color: #6a6b6a;
+}
+.categories ul{
+    margin-top: 1%;
+}
+.categories ul li {
+    display: inline-block;
+    font-size: 0.88rem;
+    margin-right: 1%;
+    padding: 0.6% 1.2%;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.c-active{
+    background: #f5fe04;
+    color: rgb(51, 43, 26);
+}
+.categories ul li:nth-child(3),.categories ul li:nth-child(4){
+    padding-right: 0.95%;
+}
