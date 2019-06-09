@@ -75,19 +75,25 @@
     cursor: pointer;
 }
 .allproducts{
-    display: flex;
-    flex-direction: row;
+    position: relative;
 }
 .product{
     border-radius: 25px;
+    width: min-content;
     box-shadow: 5px 5px 10px 0 #9E9E9E;
     background: #fff;
     padding: 8%;
+    margin-bottom: 8%;
 }
+
 .mapproduct{
-    width: min-content;
+    width: 73%;
+    height: 150%;
+    position: absolute;
+    top: 0;
+    left: 20%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: 2.5% 0 0 6%;
-    grid-column-gap: 15%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    overflow: auto;
+    padding-right: 3%;
 }
