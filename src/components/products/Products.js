@@ -14,7 +14,7 @@ class Products extends Component {
                      <div className="p-name">
                          <h5>{name}</h5>
                          <div className="p-weight">
-                             <p>KG</p>
+                             <p>{weight}KG</p>
                              <p className="p-price">{formatter.format(price)}</p>
                          </div>
                      </div>

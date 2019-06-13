@@ -25,10 +25,10 @@
             "img":"./Images/Veggie/apple.png"
         },
         {  
-            "name": "pineapple",
-            "price": 78,
+            "name": "muskmelon",
+            "price": 35,
             "weight": "1",
-            "img":"./Images/Veggie/pineapple.webp"
+            "img":"./Images/Veggie/muskmelon.jpg"
         },
         {  
             "name": "lemon",
@@ -49,10 +49,10 @@
             "img":"./Images/Veggie/grapes.png"
         },
         {  
-            "name": "muskmelon",
-            "price": 35,
+            "name": "pineapple",
+            "price": 78,
             "weight": "1",
-            "img":"./Images/Veggie/muskmelon.jpg"
+            "img":"./Images/Veggie/pineapple.webp"
         },
         {  
             "name": "mushroom",
