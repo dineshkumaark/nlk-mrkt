@@ -7,52 +7,70 @@
             "img":"./Images/Veggie/banana.png"
         },
         {  
-            "name": "banana",
-            "price": 45,
-            "weight": "1",
-            "img":"./Images/Veggie/banana.png"
-        },
-        {  
-            "name": "banana",
-            "price": 45,
-            "weight": "1",
-            "img":"./Images/Veggie/banana.png"
-        },
-        {  
-            "name": "banana",
-            "price": 45,
-            "weight": "1",
-            "img":"./Images/Veggie/banana.png"
-        },
-        {  
-            "name": "banana",
-            "price": 45,
-            "weight": "1",
-            "img":"./Images/Veggie/banana.png"
-        },
-        {  
             "name": "strawberry",
-            "price": 45,
+            "price": 180,
             "weight": "1",
-            "img":"./Images/Veggie/banana.png"
+            "img":"./Images/Veggie/strawberry.png"
         },
         {  
-            "name": "blueberry",
-            "price": 45,
+            "name": "orange",
+            "price": 75,
             "weight": "1",
-            "img":"./Images/Veggie/banana.png"
+            "img":"./Images/Veggie/orange.png"
+        },
+        {  
+            "name": "apple",
+            "price": 72,
+            "weight": "1",
+            "img":"./Images/Veggie/apple.png"
         },
         {  
             "name": "pineapple",
-            "price": 45,
+            "price": 78,
             "weight": "1",
-            "img":"./Images/Veggie/banana.png"
+            "img":"./Images/Veggie/pineapple.png"
+        },
+        {  
+            "name": "lemon",
+            "price": 22,
+            "weight": "1",
+            "img":"./Images/Veggie/lemon.png"
+        },
+        {  
+            "name": "blueberry",
+            "price": 75,
+            "weight": "1",
+            "img":"./Images/Veggie/blueberry.png"
+        },
+        {  
+            "name": "grapes",
+            "price": 60,
+            "weight": "1",
+            "img":"./Images/Veggie/grapes.png"
+        },
+        {  
+            "name": "muskmelon",
+            "price": 35,
+            "weight": "1",
+            "img":"./Images/Veggie/muskmelon.jpg"
+        },
+        {  
+            "name": "mushroom",
+            "price": 75,
+            "weight": "1",
+            "img":"./Images/Veggie/mushroom.jpg"
         },
         {  
             "name": "pomogranate",
-            "price": 45,
+            "price": 95,
             "weight": "1",
-            "img":"./Images/Veggie/banana.png"
+            "img":"./Images/Veggie/pomogranate.png"
+        },
+        {  
+            "name": "broccoli",
+            "price": 120,
+            "weight": "1",
+            "img":"./Images/Veggie/broccoli.png"
         }
     ]
         
