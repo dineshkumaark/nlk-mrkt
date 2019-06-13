@@ -28,7 +28,7 @@
             "name": "pineapple",
             "price": 78,
             "weight": "1",
-            "img":"./Images/Veggie/pineapple.png"
+            "img":"./Images/Veggie/pineapple.webp"
         },
         {  
             "name": "lemon",
