@@ -71,6 +71,30 @@
             "price": 120,
             "weight": "1",
             "img":"./Images/Veggie/broccoli.png"
+        },
+        {  
+            "name": "strawberry",
+            "price": 180,
+            "weight": "1",
+            "img":"./Images/Veggie/strawberry.png"
+        },
+        {  
+            "name": "orange",
+            "price": 75,
+            "weight": "1",
+            "img":"./Images/Veggie/orange.png"
+        },
+        {  
+            "name": "apple",
+            "price": 72,
+            "weight": "1",
+            "img":"./Images/Veggie/apple.png"
+        },
+        {  
+            "name": "blueberry",
+            "price": 75,
+            "weight": "1",
+            "img":"./Images/Veggie/blueberry.png"
         }
     ]
         

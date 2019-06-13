@@ -83,8 +83,8 @@ nav{
     cursor: pointer;
 }
 .c-active{
-    background: rgb(250, 197, 21);
-    color: rgb(51, 43, 26);
+    background: linear-gradient(-225deg,#FFEB3B,rgb(250, 158, 21));
+    color: rgb(42, 36, 21);
 }
 .categories ul li:nth-child(3),.categories ul li:nth-child(4){
     padding-right: 0.95%;
