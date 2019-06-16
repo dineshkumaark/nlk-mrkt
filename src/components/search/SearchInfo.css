@@ -17,6 +17,7 @@
     text-indent: 9px;
     width: 75%;
     height: 25%;
+    box-shadow:0 8px 30px -15px rgba(0,0,0,0.55);
 }
 .search-box button{
     border: none;
@@ -29,6 +30,10 @@
     outline: none;
     position: absolute;
     top: 7%;
+}
+.search-box button:hover{
+    background: #3b3b3b;
+    transition: all 500ms ease-in-out;
 }
 .delivery{
     display: flex;
@@ -47,6 +52,7 @@
     background: #eae8e8;
     position: relative;
     border-radius: 18px;
+    box-shadow: 10px 6px 20px -15px #0a0303;
 }
 .f-delivery .f-desc{
     margin-top: -2%;
