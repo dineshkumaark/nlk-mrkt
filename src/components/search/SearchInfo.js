@@ -13,14 +13,14 @@ const SearchInfo = () => {
                     <span>Free Delivery</span><br />
                     <p>Over $50 orders</p>
                     </div>
-                    <img src="./Images/free-delivery.svg" width="40px" height="40px"/>
+                    <img src="./Images/free-delivery.svg" width="40px" height="40px" alt="delivery"/>
                 </div>
                 <div className="timer">
                     <div className="t-desc">
                     <span>Shop Online</span><br />
                     <p>get your shopping in same day</p>
                     </div>
-                    <img src="./Images/timer.svg" width="30px" height="30px"/>
+                    <img src="./Images/timer.svg" width="30px" height="30px" alt="timer"/>
                 </div>
             </div>
         </div>

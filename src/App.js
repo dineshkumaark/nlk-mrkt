@@ -2,8 +2,7 @@ import React from 'react';
 import './App.css';
 import NavBar from './components/navbar/NavBar';
 import SearchInfo from './components/search/SearchInfo';
-import  ProductNavbar from './components/navbar/ProductNavbar';
-import AllProducts from './components/products';
+import Items from './components/products/Items';
 import { Sidebar } from './components/navbar/Sidebar';
 import './components/search/SearchInfo.css';
 import './components/navbar/Navbar.css';
@@ -12,8 +11,7 @@ function App() {
     <div className="App">
         <NavBar brand="NLK" highlight="MRKT"/>
         <SearchInfo />
-        <ProductNavbar />
-        <AllProducts />
+        <Items />
         <Sidebar />
     </div>
   );

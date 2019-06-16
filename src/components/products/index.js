@@ -3,6 +3,7 @@ import Products from './Products';
 import CurrentProduct from './CurrentProduct';
 
 const AllProducts = () => {
+    
      return(
          <div className="allproducts container">
             <CurrentProduct />
