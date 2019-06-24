@@ -1,0 +1,14 @@
+@media screen and (max-width: 440px) {
+    body {
+      overflow: scroll;
+      width: 100%;
+      height: 100%;
+    }
+    .brand h4 img{
+        height: 45px;
+    }
+    .m-hide,.solidBrand{
+        display: none;
+    }
+    
+  }

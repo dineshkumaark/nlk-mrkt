@@ -6,6 +6,7 @@ import Items from './components/products/Items';
 import { Sidebar } from './components/navbar/Sidebar';
 import './components/search/SearchInfo.css';
 import './components/navbar/Navbar.css';
+import './components/responsive/index.css';
 function App() {
   return (
     <div className="App">

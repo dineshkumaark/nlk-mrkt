@@ -8,16 +8,16 @@ function NavBar(props){
             <span className="solidBrand">{props.brand}<span className="mark">{props.highlight}</span></span>
             </div>
             <div className="main-nav">
-                <div className="lang">
+                <div className="lang" className="m-hide">
                     <ul>
-                        <li><a href="#">English</a></li>
+                        <li><a href="#" >English</a></li>
                     </ul>
                 </div>
                 <div className="cart-prop">
                     <ul>
-                        <li><a href="#">My Account</a></li>
-                        <li><a href="#">Orders</a></li>
-                        <li><a href="#">Coupouns</a></li>
+                        <li><a href="#" className="m-hide">My Account</a></li>
+                        <li><a href="#" className="m-hide">Orders</a></li>
+                        <li><a href="#" className="m-hide">Coupouns</a></li>
                         <li><img src="./Images/shopping-basket.svg" width="30px" height="30px" alt="shopping basket"/></li>
                     </ul>
                 </div>
