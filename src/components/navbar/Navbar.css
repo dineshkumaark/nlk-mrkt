@@ -67,6 +67,17 @@ nav{
     margin-top: -8px;
     cursor: pointer;
 }
+.c-hide{
+    display: none;
+}
+.f-prod{
+    border:1px solid #ccc;
+    padding: 10% 0;
+    font-size: 0.8em;
+}
+.f-prod p {
+    margin-top: 2%;
+}
 /* Product Navbar */
 .c-head , .c-ul{
     color: #6a6b6a;

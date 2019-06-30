@@ -32,6 +32,10 @@
     .c-head h1{
         font-size: 1.2em;
     }
-   
+    .c-hide{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 15px;
+    }
     
   }
