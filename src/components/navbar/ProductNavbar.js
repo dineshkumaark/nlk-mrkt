@@ -6,18 +6,21 @@ class ProductNavbar extends Component{
         console.log("hi everyone");
     }
     componentDidMount(){
-        const li = document.querySelectorAll('.p-li');
-        li.forEach((e,i)=>{
-            e.addEventListener('click',(el)=>{
-                li.forEach((j )=>{
-                    j.classList.remove('c-active');
-                    j.style.background = "transparent";
-                }  
-                );
-                el.target.classList.add('c-active');
-                el.target.style.background = `${slide(i)}`;
-            })
-        })
+            const li = document.querySelectorAll('.p-li');
+            li.forEach((e,i)=>{
+                e.addEventListener('click',(el)=>{
+                    li.forEach((j )=>{
+                        j.classList.remove('c-active');
+                        j.style.background = "transparent";
+                    }  
+                    );
+                    el.target.classList.add('c-active');
+                    el.target.style.background = `${slide(i)}`;
+                })
+            });
+    }
+    componentDidUpdate(){
+        console.log('updating');
     }
     render(){
         return(

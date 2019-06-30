@@ -7,8 +7,31 @@
     .brand h4 img{
         height: 45px;
     }
-    .m-hide,.solidBrand{
+    .m-hide,.solidBrand,.delivery,.search-box,.allproducts,.categories ul{
         display: none;
     }
+    .main-nav .cart-prop{
+        position: relative;
+    }
+    .main-nav .cart-prop li:nth-child(4){
+        position: absolute;
+        margin-top: -3px;
+        right: -25%;
+    }
+    .box{
+        width: 105%;
+        height: 65px;
+    }
+    .container nav{
+        margin-top: -2%;
+    }
+    .c-head,.categories{
+        margin-top: 5%;
+        text-align: center;
+    }
+    .c-head h1{
+        font-size: 1.2em;
+    }
+   
     
   }

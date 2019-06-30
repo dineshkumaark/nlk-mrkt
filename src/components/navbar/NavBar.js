@@ -8,7 +8,7 @@ function NavBar(props){
             <span className="solidBrand">{props.brand}<span className="mark">{props.highlight}</span></span>
             </div>
             <div className="main-nav">
-                <div className="lang" className="m-hide">
+                <div className="lang m-hide">
                     <ul>
                         <li><a href="#" >English</a></li>
                     </ul>
