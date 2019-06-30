@@ -74,6 +74,7 @@ nav{
     border:1px solid #ccc;
     padding: 10% 0;
     font-size: 0.8em;
+    cursor: pointer;
 }
 .f-prod p {
     margin-top: 2%;
