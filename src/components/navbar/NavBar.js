@@ -1,5 +1,11 @@
 import React from 'react';
+import {connect} from 'react-redux';
+// import  addCounter  from '../../actionTypes/action';
 function NavBar(props){
+    const addCounts = () =>{
+        console.log(props);
+        props.addCounter();
+    }
     return(
         <div className="container">
         <nav>
@@ -15,7 +21,7 @@ function NavBar(props){
                 </div>
                 <div className="cart-prop">
                     <ul>
-                        <li><a href="#" className="m-hide">My Account</a></li>
+                        <li><a href="#" className="m-hide" onClick={addCounts}>My Account</a></li>
                         <li><a href="#" className="m-hide">Orders</a></li>
                         <li><a href="#" className="m-hide">Coupouns</a></li>
                         <li><img src="./Images/shopping-basket.svg" width="30px" height="30px" alt="shopping basket"/></li>
@@ -26,5 +32,15 @@ function NavBar(props){
         </div>
     );
 }
+const mapStatetoProps = (state) =>{
+    return{
+        counter: state
+    }
+}
+const mapDispatchTpProps = (dispatch) => {
+    return{
+        addCounter: () => dispatch ({type:'ADD',payload:1})
+    }
+}
 
-export default NavBar;
+export default connect(mapStatetoProps,mapDispatchTpProps)(NavBar);

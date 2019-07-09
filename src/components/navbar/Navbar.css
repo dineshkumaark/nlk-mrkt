@@ -101,3 +101,6 @@ nav{
 .categories ul li:nth-child(3),.categories ul li:nth-child(4){
     padding-right: 0.95%;
 }
+.m-show{
+    display: none;
+}
