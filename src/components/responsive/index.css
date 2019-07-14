@@ -43,15 +43,10 @@
     .mapproduct{
         position: relative;
         margin-top: 10%;
-        left: 2%;
+        left: 2.8%;
+        width: 98%;
         grid-template-columns: 1fr 1fr;
         overflow: visible;
-        grid-gap: 20px;
-    }
-    .product{
-        width: auto;
-    }
-    .product .p-image{
-        width: 100px;
+        grid-gap: 10px;
     }
   }
