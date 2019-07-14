@@ -1,5 +1,5 @@
 {
-    "veggie" :[
+    "Groceries" :[
         {  
             "name": "banana",
             "price": 45,
@@ -38,6 +38,104 @@
         },
         {  
             "name": "blueberry",
+            "price": 75,
+            "weight": "1",
+            "img":"./Images/Veggie/blueberry.png"
+        },
+        {  
+            "name": "grapes",
+            "price": 60,
+            "weight": "1",
+            "img":"./Images/Veggie/grapes.png"
+        },
+        {  
+            "name": "pineapple",
+            "price": 78,
+            "weight": "1",
+            "img":"./Images/Veggie/pineapple.webp"
+        },
+        {  
+            "name": "mushroom",
+            "price": 75,
+            "weight": "1",
+            "img":"./Images/Veggie/mushroom.jpg"
+        },
+        {  
+            "name": "pomogranate",
+            "price": 95,
+            "weight": "1",
+            "img":"./Images/Veggie/pomogranate.png"
+        },
+        {  
+            "name": "broccoli",
+            "price": 120,
+            "weight": "1",
+            "img":"./Images/Veggie/broccoli.png"
+        },
+        {  
+            "name": "strawberry",
+            "price": 180,
+            "weight": "1",
+            "img":"./Images/Veggie/strawberry.png"
+        },
+        {  
+            "name": "orange",
+            "price": 75,
+            "weight": "1",
+            "img":"./Images/Veggie/orange.png"
+        },
+        {  
+            "name": "apple",
+            "price": 72,
+            "weight": "1",
+            "img":"./Images/Veggie/apple.png"
+        },
+        {  
+            "name": "blueberry",
+            "price": 75,
+            "weight": "1",
+            "img":"./Images/Veggie/blueberry.png"
+        }
+    ],
+    "Dairy" :[
+        {  
+            "name": "milk",
+            "price": 45,
+            "weight": "1",
+            "img":"./Images/Veggie/banana.png"
+        },
+        {  
+            "name": "panner",
+            "price": 180,
+            "weight": "1",
+            "img":"./Images/Veggie/strawberry.png"
+        },
+        {  
+            "name": "ghee",
+            "price": 75,
+            "weight": "1",
+            "img":"./Images/Veggie/orange.png"
+        },
+        {  
+            "name": "curd",
+            "price": 72,
+            "weight": "1",
+            "img":"./Images/Veggie/apple.png"
+        },
+        {  
+            "name": "skimmed milk",
+            "price": 35,
+            "weight": "1",
+            "img":"./Images/Veggie/muskmelon.jpg"
+        },
+        {  
+            "name": "tofu",
+            "price": 22,
+            "weight": "1",
+            "img":"./Images/Veggie/lemon.png"
+        },
+        {  
+            "name": "goat milk",
             "price": 75,
             "weight": "1",
             "img":"./Images/Veggie/blueberry.png"

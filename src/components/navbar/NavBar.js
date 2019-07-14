@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 // import  addCounter  from '../../actionTypes/action';
 function NavBar(props){
     const addCounts = () =>{
-        console.log(props);
+        console.log(props.counter);
         props.addCounter();
     }
     return(
@@ -34,12 +34,12 @@ function NavBar(props){
 }
 const mapStatetoProps = (state) =>{
     return{
-        counter: state
+        counter: state.current
     }
 }
 const mapDispatchTpProps = (dispatch) => {
     return{
-        addCounter: () => dispatch ({type:'ADD',payload:1})
+        addCounter: () => dispatch({type:'ADD',payload:1})
     }
 }
 

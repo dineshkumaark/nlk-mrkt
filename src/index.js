@@ -5,8 +5,8 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
-import  counter  from './store/counter';
-let store = createStore(counter);
+import rootReducers from './store';
+let store = createStore(rootReducers);
 
 
 

@@ -1,15 +1,17 @@
 import React , { Component } from 'react';
-import data from '../data/data.json';
+import {connect} from 'react-redux';
 class Products extends Component {
     render(){
-        const { veggie } = data;
+        const { allProducts } = this.props.allProducts;
+        let { current }= this.props.currentProduct;
+        // console.log(allProducts[current]);
         let formatter = new Intl.NumberFormat('en-in',{
             style: 'currency',
             currency:'inr'
         });
         return(
             <div className="mapproduct">
-             {veggie.map(({name,price,weight,img},i)=>(
+             {allProducts[current].map(({name,price,weight,img},i)=>(
                  <div className="product" key={i}>
                      <div className="p-name">
                          <h5>{name}</h5>
@@ -30,4 +32,17 @@ class Products extends Component {
     }
 }
 
-export default Products;
+const mapStateToProps = (state) =>{
+    return{
+        currentProduct: state.current,
+        allProducts: state.products
+    }
+}
+
+const mapDispatchToProps = (dispatch)=>{
+    return{
+        changeCurrent: (change)=> dispatch({type:'CHANGE_CURRENT',payload: change})
+    }
+}
+
+export default connect(mapStateToProps,mapDispatchToProps)(Products);

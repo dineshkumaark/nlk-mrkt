@@ -1,18 +1,15 @@
 import React,{Component} from 'react';
 import slide from './slide';
+import {connect} from 'react-redux';
 
 class ProductNavbar extends Component{ 
-    state = {
-        categories: ['Groceries','Steak,fish','Dairy','Food','Beverage','Cleaning'],
-        imgs: ['c-groceries.png','c-turkey.png','c-apple.png','c-diet.png','c-salad.png','c-asparagus.png'],
-        current:'Groceries'
-    }
     currentCategories = (e)=>{
-        this.setState({current: e});
+        this.props.menu(e);
     }
     componentWillMount(){
         console.log("hi everyone");
     }
+
     componentDidMount(){
             const li = document.querySelectorAll('.p-li');
             li.forEach((e,i)=>{
@@ -31,19 +28,24 @@ class ProductNavbar extends Component{
         console.log('updating');
     }
     render(){
-        const {categories,imgs,current} = this.state;
+       const {categories,imgs,current} = this.props.current;
         return(
             <div className="container">
                 <div className="c-head">
                   <h1>Categories</h1>
                 </div>
                 <div className="categories">
+                {/* Categories Menu Mapping */}
                 <ul className="c-ul">
-                
                 {categories.map((item,index)=>(
-                        (index === 0) ?<li className="c-active p-li" key={index}>{item}</li> :<li className="p-li" key={index}>{item}</li>
+                        (index === 0) ?<li className="c-active p-li" key={index} onClick={() => this.currentCategories(item)}>
+                                {item}
+                        </li> :<li className="p-li" key={index} onClick={() => this.currentCategories(item)}>
+                                {item}
+                        </li>
                 ))}
                 </ul>
+                {/* Categories for Mobile Version */}
                     <div className="c-hide">
                         {categories.map((item,index)=>(
                             <div className="f-prod" key={index} onClick={() => this.currentCategories(item)}>
@@ -61,5 +63,16 @@ class ProductNavbar extends Component{
     }
     
 }
+const mapStateToProps = (state) => {
+    return{
+        current: state.current
+    }
+}
 
-export default ProductNavbar;
+const mapDispatchToProps = (dispatch) => {
+    return{
+        menu: (current)=> dispatch({type:'CURRENT',payload: current})
+    }
+}
+
+export default connect(mapStateToProps,mapDispatchToProps)(ProductNavbar);

@@ -47,14 +47,6 @@
     }
     .mapproduct{
         position: relative;
-<<<<<<< HEAD
-        margin-top: 10%;
-        left: 2.8%;
-        width: 98%;
-        grid-template-columns: 1fr 1fr;
-        overflow: visible;
-        grid-gap: 10px;
-=======
         margin-top: 8%;
         left: 2%;
         display: flex;
@@ -86,6 +78,5 @@
     }
     .p-weight{
         margin-left: 5%;
->>>>>>> 333dc55b1f3c589b58d9c0288acb8578929c6d5f
     }
   }
