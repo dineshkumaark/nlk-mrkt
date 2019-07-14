@@ -4,7 +4,11 @@ import slide from './slide';
 class ProductNavbar extends Component{ 
     state = {
         categories: ['Groceries','Steak,fish','Dairy','Food','Beverage','Cleaning'],
-        imgs: ['c-groceries.png','c-turkey.png','c-apple.png','c-diet.png','c-salad.png','c-asparagus.png']
+        imgs: ['c-groceries.png','c-turkey.png','c-apple.png','c-diet.png','c-salad.png','c-asparagus.png'],
+        current:'Groceries'
+    }
+    currentCategories = (e)=>{
+        this.setState({current: e});
     }
     componentWillMount(){
         console.log("hi everyone");
@@ -27,7 +31,7 @@ class ProductNavbar extends Component{
         console.log('updating');
     }
     render(){
-        const {categories,imgs} = this.state;
+        const {categories,imgs,current} = this.state;
         return(
             <div className="container">
                 <div className="c-head">
@@ -42,13 +46,15 @@ class ProductNavbar extends Component{
                 </ul>
                     <div className="c-hide">
                         {categories.map((item,index)=>(
-                            <div className="f-prod" key={index}>
-                                <img src={`./Images/Veggie/${imgs[index]}`} width="35px" height="35px" alt={item}/>
+                            <div className="f-prod" key={index} onClick={() => this.currentCategories(item)}>
+                                <img src={`./Images/Veggie/${imgs[index]}`} width="35px" height="35px" alt={item} />
                                 <p>{item}</p>
                             </div>
                         ))}
                     </div>
-                    
+                    <div className="c-head m-show">
+                        <h1>{current}</h1>
+                    </div>
                 </div>
             </div>
         );

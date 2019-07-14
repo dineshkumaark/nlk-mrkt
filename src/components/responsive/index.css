@@ -37,16 +37,55 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 15px;
     }
+    .m-show{
+        display: block;
+        margin-top: 6%;
+        transition: all 600ms;
+    }
     .currentproduct{
         display: none;
     }
     .mapproduct{
         position: relative;
+<<<<<<< HEAD
         margin-top: 10%;
         left: 2.8%;
         width: 98%;
         grid-template-columns: 1fr 1fr;
         overflow: visible;
         grid-gap: 10px;
+=======
+        margin-top: 8%;
+        left: 2%;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: visible;
+        width: 98%;
+    }
+    .product{
+        width: 100px;
+        margin-right: 5.2%;
+        padding: 5% 8%;
+    }
+    .product .p-image{
+        margin-left: -19%;
+        width: 100%;
+        margin-top: 34%;
+    }
+    .p-name{
+        font-size: 14px;
+    }
+  }
+  @media screen and (max-width: 400px){
+    .product{
+        width: 90px;
+        padding-right: 7%;
+    }
+    .product .p-image img{
+        width: 140%;
+    }
+    .p-weight{
+        margin-left: 5%;
+>>>>>>> 333dc55b1f3c589b58d9c0288acb8578929c6d5f
     }
   }
