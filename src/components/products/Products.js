@@ -23,6 +23,12 @@ class Products extends Component {
                      <div className="p-image">
                          <img src={img} alt={name} width="140px" height="100px"/>
                      </div>
+                     <div className="p-details">
+                            <button>-</button>
+                             <input type="number" className="quantity" value="1"/>
+                            <button>+</button><br/>
+                            <button className="p-button p-cls">Add to Basket</button>
+                     </div>
                  </div>
              ))
                 

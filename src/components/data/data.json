@@ -4,7 +4,7 @@
             "name": "banana",
             "price": 45,
             "weight": "1",
-            "img":"./Images/Veggie/banana.png"
+            "img":"https://i.ibb.co/dp2x2zt/banana.png"
         },
         {  
             "name": "strawberry",
@@ -22,7 +22,7 @@
             "name": "apple",
             "price": 72,
             "weight": "1",
-            "img":"./Images/Veggie/apple.png"
+            "img":"https://i.ibb.co/wJHqgvY/apple.png"
         },
         {  
             "name": "muskmelon",

@@ -68,13 +68,18 @@
     margin-top: 15%;
     text-align: center;
 }
-.p-basket button{
+.p-button{
     padding: 8% 20%;
     border: none;
     border-radius: 25px;
     color: #000;
     background: #fff;
     cursor: pointer;
+    outline: none;
+}
+.p-cls{
+    margin-top: 8%;
+    background: #FFEB3B;
 }
 .allproducts{
     position: relative;
@@ -107,6 +112,16 @@
     width: 20px;
   }
   
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+  }
+  .quantity{
+    width: 15%;
+    text-align: center;
+  }
+
   /* Track */
   .mapproduct::-webkit-scrollbar-track {
     background: rgba(53, 48, 47, 0.198);
