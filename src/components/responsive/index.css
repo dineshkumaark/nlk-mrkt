@@ -67,6 +67,10 @@
     .p-name{
         font-size: 14px;
     }
+    .badge {
+        padding: 5% 17%;
+        right: -20%;
+    }
   }
   @media screen and (max-width: 400px){
     .product{

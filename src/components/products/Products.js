@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 class Products extends Component {
     changeValues = (name)=>{
         const { allProducts } = this.props.allProducts;
-        const {current} = this.props.currentProduct;
+        const { current , cart} = this.props.currentProduct;
         const shop = allProducts[current][name];
         this.props.addToCart(shop);
         //console.log(shop);
@@ -50,14 +50,13 @@ const mapStateToProps = (state) =>{
     return{
         currentProduct: state.current,
         allProducts: state.products,
-        cart: state.cart
     }
 }
 
 const mapDispatchToProps = (dispatch)=>{
     return{
         changeCurrent: (change)=> dispatch({type:'CHANGE_CURRENT',payload: change}),
-        addToCart: (cart)=> dispatch({type:'ADD_TO_CART',payload:cart})
+        addToCart: (cart)=> dispatch({type:'ADD_TO_CART',payload:cart}),
     }
 }
 

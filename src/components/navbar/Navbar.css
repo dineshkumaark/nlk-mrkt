@@ -79,6 +79,18 @@ nav{
 .f-prod p {
     margin-top: 2%;
 }
+
+.badge{
+    background: orange;
+    border-radius: 25%;
+    color: rgb(35, 34, 37);
+    position: absolute;
+    top: -12%;
+    right: 2.5%;
+    font-size: 14px;
+    padding: 0.1% 0.4%;
+}
+
 /* Product Navbar */
 .c-head , .c-ul{
     color: #6a6b6a;
