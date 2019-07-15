@@ -1,7 +1,8 @@
 let initialState = {
     categories: ['Groceries','Steak,fish','Dairy','Food','Beverage','Cleaning'],
         imgs: ['c-groceries.png','c-turkey.png','c-apple.png','c-diet.png','c-salad.png','c-asparagus.png'],
-        current:'Groceries'
+        current:'Groceries',
+        cart:[]
 };
 export default function current(state = initialState,action) {
     switch(action.type){
@@ -10,6 +11,11 @@ export default function current(state = initialState,action) {
                 ...state,
                 current: action.payload
             };
+        case "ADD_TO_CART":
+            return {
+                ...state,
+                cart: [...state.cart,action.payload]
+            };  
         default:
             return state;
     }

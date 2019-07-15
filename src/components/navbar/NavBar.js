@@ -24,7 +24,7 @@ function NavBar(props){
                         <li><a href="#" className="m-hide" onClick={addCounts}>My Account</a></li>
                         <li><a href="#" className="m-hide">Orders</a></li>
                         <li><a href="#" className="m-hide">Coupouns</a></li>
-                        <li><img src="./Images/shopping-basket.svg" width="30px" height="30px" alt="shopping basket"/></li>
+                        <li onClick={()=>console.log(props.cart)}><img src="./Images/shopping-basket.svg" width="30px" height="30px" alt="shopping basket"/></li>
                     </ul>
                 </div>
             </div>
@@ -34,7 +34,7 @@ function NavBar(props){
 }
 const mapStatetoProps = (state) =>{
     return{
-        counter: state.current
+        cart: state.current.cart
     }
 }
 const mapDispatchTpProps = (dispatch) => {
