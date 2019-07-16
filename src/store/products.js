@@ -5,11 +5,12 @@ export default function product(state = initialState,action){
         case "CHANGE_CURRENT":
         return state;
         case "ADD_COUNT":
-          console.log(state.allProducts[action.payload.current][action.payload.index] = action.payload.newProducts)
+        state.allProducts[action.payload.current][action.payload.index] = action.payload.newProducts
             return {
                 ...state
                 };
         case "SUB_COUNT":
+        state.allProducts[action.payload.current][action.payload.index] = action.payload.newProducts
                 return {
                  ...state
                 };

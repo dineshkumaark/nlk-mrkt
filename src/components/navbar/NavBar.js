@@ -4,14 +4,13 @@ import {connect} from 'react-redux';
 function NavBar(props){
     const showCart= ()=>{
         const { cart ,  count } = props;
+        props.showModel();
         if(cart.length === 0){
-            alert('No Items');
         }else{
             console.log(cart);
             console.log(count);
         }
     }
-
     return(
         <div className="container">
         <nav>
@@ -31,8 +30,12 @@ function NavBar(props){
                         <li><a href="#" className="m-hide">Orders</a></li>
                         <li><a href="#" className="m-hide">Coupouns</a></li>
                         <li onClick={()=> showCart()}><img src="./Images/shopping-basket.svg" width="30px" height="30px" alt="shopping basket"/>{(props.cart.length > 0) ? <span className="badge">{props.cart.length}</span> : ''}</li>
-                        
                     </ul>
+                    {(props.cart.showModel) ?
+                     <div className="modal">
+                        <img src="./Images/Veggie/empty-cart.png"/>
+                     </div>
+                     :''}
                 </div>
             </div>
         </nav>
@@ -41,10 +44,15 @@ function NavBar(props){
 }
 const mapStatetoProps = (state) =>{
     return{
-        cart: state.current.cart,
+        cart: state.cart,
         count: state.current.count
     }
 }
 
+const mapDispatchToProps = (dispatch) => {
+    return{
+        showModel: ()=> dispatch({type:'SHOW_MODEL'})
+    }
+}
 
-export default connect(mapStatetoProps)(NavBar);
+export default connect(mapStatetoProps,mapDispatchToProps)(NavBar);

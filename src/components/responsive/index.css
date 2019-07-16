@@ -67,6 +67,15 @@
     .p-name{
         font-size: 14px;
     }
+    .p-cls{
+        font-size: 12px;
+    }
+    .p-nos {
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        margin: 4% 0;
+    }
     .badge {
         padding: 5% 17%;
         right: -30%;

@@ -1,12 +1,12 @@
-let initialState = {};
+let initialState = {showModel: false};
 
 export default function cart(state = initialState,action){
-    switch(action.payload){
-        case 'ADD_TO_CART':
-        console.log(action.payload);
+    console.log(action.type)
+    switch(action.type){
+        case 'SHOW_MODEL':
         return{
             ...state,
-            state: action.payload
+            showModel: !state.showModel
         }
         default:
         return state;

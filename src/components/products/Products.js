@@ -7,16 +7,16 @@ class Products extends Component {
          let { current }= this.props.currentProduct;
          const { count } = this.props.currentProduct;
          const changePrice = allProducts[current][index];
+         let newProducts = {};
          console.log(allProducts);
         switch(symbol){
             case '+':
-                const newProducts = {...changePrice,count: changePrice.count + 1};
-                console.log(index)
+                 newProducts = {...changePrice,count: changePrice.count + 1};
                 this.props.addCount('ADD_COUNT',{newProducts,current,index});
                 return;
             case '-':
-                    const newProduct = {...changePrice,count: changePrice.count - 1};
-                this.props.addCount('SUB_COUNT',newProduct);
+                 newProducts = {...changePrice,count: changePrice.count - 1};
+                this.props.addCount('SUB_COUNT',{newProducts,current,index});
                 return;
             default:
                 return count;
@@ -52,10 +52,11 @@ class Products extends Component {
                          <img src={img} alt={name} width="140px" height="100px"/>
                      </div>
                      <div className="p-details">
-                            {(count === 1 ? <button className="p-dec" onClick={this.addQuantity} disabled>-</button>: <button className="p-dec" onClick={(e) => this.addQuantity(e,i)}>-</button> )}
-                             <input type="number" className="quantity" value={count} min="1" max="10" onChange={()=> console.log(1)}/>
+                          <div className="p-nos">
+                            {(count === 1 ? <button className="p-dec" onClick={this.addQuantity} disabled>-</button> : <button className="p-dec" onClick={(e) => this.addQuantity(e,i)}>-</button> )}
+                             <input type="number" className="quantity" value={count} min="1" max="10" onChange={()=> console.log()}/>
                              {(count === 10 ? <button className="p-inc" disabled>+</button>: <button className="p-inc" onClick={(e) => this.addQuantity(e,i)}>+</button> )}
-                            <br/>
+                          </div>
                             <button className="p-button p-cls" onClick={()=> this.changeValues(i)}>Add to Basket</button>
                      </div>
                  </div>
