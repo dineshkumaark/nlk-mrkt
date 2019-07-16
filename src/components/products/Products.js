@@ -1,7 +1,7 @@
 import React , { Component } from 'react';
 import {connect} from 'react-redux';
 class Products extends Component {
-     addQuantity = (e,index) =>{
+     addQuantity = (e,index) => {
          const symbol = e.target.textContent; 
          const { allProducts } = this.props.allProducts;
          let { current }= this.props.currentProduct;
@@ -11,7 +11,8 @@ class Products extends Component {
         switch(symbol){
             case '+':
                 const newProducts = {...changePrice,count: changePrice.count + 1};
-                this.props.addCount('ADD_COUNT',{newProducts,current});
+                console.log(index)
+                this.props.addCount('ADD_COUNT',{newProducts,current,index});
                 return;
             case '-':
                     const newProduct = {...changePrice,count: changePrice.count - 1};
@@ -52,7 +53,7 @@ class Products extends Component {
                      </div>
                      <div className="p-details">
                             {(count === 1 ? <button className="p-dec" onClick={this.addQuantity} disabled>-</button>: <button className="p-dec" onClick={(e) => this.addQuantity(e,i)}>-</button> )}
-                             <input type="number" className="quantity" defaultValue={count} min="1" max="10"/>
+                             <input type="number" className="quantity" value={count} min="1" max="10" onChange={()=> console.log(1)}/>
                              {(count === 10 ? <button className="p-inc" disabled>+</button>: <button className="p-inc" onClick={(e) => this.addQuantity(e,i)}>+</button> )}
                             <br/>
                             <button className="p-button p-cls" onClick={()=> this.changeValues(i)}>Add to Basket</button>
@@ -76,10 +77,9 @@ const mapStateToProps = (state) =>{
 const mapDispatchToProps = (dispatch)=>{
     return{
         changeCurrent: (change)=> dispatch({type:'CHANGE_CURRENT',payload: change}),
-        addToCart: (cart)=> dispatch({type:'ADD_TO_CART',payload:cart}),
-        addCount: (quantity,price)=> {
-            dispatch({type: quantity,payload: price})
-        }
+        addCount: (quantity,price)=> dispatch({type: quantity,payload: price}),
+        addToCart: (cart)=> dispatch({type:'ADD_TO_CART',payload:cart})
+        
     }
 }
 
