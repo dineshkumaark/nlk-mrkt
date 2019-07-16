@@ -78,6 +78,19 @@
     outline: none;
 }
 
+.modal{
+    position: absolute;
+    z-index: 99;
+    border: 1px solid #000;
+    top: 75%;
+    padding: 2%;
+    background: #fff;
+    text-align: center;
+}
+.modal img{
+    height: 220px;
+}
+
 .p-inc,.p-dec {
     padding: 4% 6%;
     border-radius: 25px;
