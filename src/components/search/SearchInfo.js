@@ -11,7 +11,7 @@ const SearchInfo = () => {
                 <div className="f-delivery">
                     <div className="f-desc">
                     <span>Free Delivery</span><br />
-                    <p>Over $50 orders</p>
+                    <p>Over ₹5000 orders</p>
                     </div>
                     <img src="./Images/free-delivery.svg" width="40px" height="40px" alt="delivery"/>
                 </div>
