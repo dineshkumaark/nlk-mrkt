@@ -76,6 +76,14 @@
         align-content: center;
         margin: 4% 0;
     }
+    .modal{
+        padding: 3.2%;
+        width: 298px;
+        height: 320px;
+        right: 2%;
+        top: 43px;
+        padding-left: 13%;
+    }
     .badge {
         padding: 5% 17%;
         right: -30%;

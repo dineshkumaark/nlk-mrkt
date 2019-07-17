@@ -106,19 +106,27 @@
 .cart-details,.cart-price{
     margin-top: 1%;
 }
-.pro-name,.pro-c{
+.cart-details{
+    width: 100%;
+    text-align: start;
+}
+.pro-name,.pro-c,.pro-nos,.pro-total{
     text-transform: capitalize;
     font-size: 14px;
 }
-.pro-c{
+.pro-c,.pro-total{
     font-weight: bold;
     color: #6a6b6ace;
-    margin-left: -35%;
 }
+.pro-total{
+    color: rgba(0, 0, 0, 0.897);
+    }
 .cart-sm-img,.cart-details{
     margin-right: 5%;
 }
-
+.cart-price{
+    margin-top: 1%;
+}
 .p-inc,.p-dec {
     padding: 4% 6%;
     border-radius: 25px;

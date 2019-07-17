@@ -50,7 +50,8 @@ function NavBar(props){
                                             <p className="pro-c">{formatter.format(item.price)}</p>
                                        </div>
                                        <div className="cart-price">
-                                            <p>{item.price}</p>
+                                            <p className="pro-nos">{item.count}No.</p>
+                                            <p className="pro-total">{formatter.format((item.price)*(item.count))}</p>
                                        </div>
                                     </li>
                                 )
