@@ -2,6 +2,10 @@ import React from 'react';
 import {connect} from 'react-redux';
 // import  addCounter  from '../../actionTypes/action';
 function NavBar(props){
+    let formatter = new Intl.NumberFormat('en-in',{
+        style: 'currency',
+        currency:'inr'
+    });
     const showCart= ()=>{
         const { carts ,  count } = props;
          props.showModel();
@@ -36,17 +40,25 @@ function NavBar(props){
                      <div className="modal">
                         {(props.carts.length > 0) ? 
                             <React.Fragment>
-                                {props.carts.map((item)=>(
-                                    <div>
-                                        <h1>{(item.name).toUpperCase()}</h1>
-                                        <p>{item.price}</p>
-                                    </div>
+                                {props.carts.map((item,index)=>(
+                                    <li key={index} className="cart-items">
+                                        <div>
+                                         <img src={item.img} width="48px" height="48px" className="cart-sm-img"/>   
+                                        </div>
+                                       <div className="cart-details">
+                                            <p className="pro-name">{item.name} - {item.weight} Kg</p>
+                                            <p className="pro-c">{formatter.format(item.price)}</p>
+                                       </div>
+                                       <div className="cart-price">
+                                            <p>{item.price}</p>
+                                       </div>
+                                    </li>
                                 )
                                 )}
                             </React.Fragment>
                         :
                             <React.Fragment>
-                                <img src="./Images/Veggie/empty-cart.png"/>
+                                <img src="./Images/Veggie/empty-cart.png" className="empty-cart"/>
                                 <h5>Your Cart is Empty!</h5>
                             </React.Fragment>
                         }

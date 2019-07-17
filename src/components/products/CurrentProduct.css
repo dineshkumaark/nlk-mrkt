@@ -83,12 +83,40 @@
     z-index: 99;
     border: 1px solid #000;
     top: 75%;
-    padding: 2%;
+    padding: 1.2%;
     background: #fff;
     text-align: center;
+    width: 360px;
+    height: 388px;
+    overflow: scroll;
 }
-.modal img{
+.empty-cart{
     height: 220px;
+}
+
+.cart-items{
+    display: flex;
+    padding: 1%;
+    border-bottom: 1px solid #ccc;
+    width: 98%;
+}
+.cart-sm-img{
+    margin-left: -40%;
+}
+.cart-details,.cart-price{
+    margin-top: 1%;
+}
+.pro-name,.pro-c{
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.pro-c{
+    font-weight: bold;
+    color: #6a6b6ace;
+    margin-left: -35%;
+}
+.cart-sm-img,.cart-details{
+    margin-right: 5%;
 }
 
 .p-inc,.p-dec {
