@@ -39,12 +39,12 @@ class Products extends Component {
         });
         return(
             <div className="mapproduct">
-             {allProducts[current].map(({name,price,weight,img,count},i)=>(
+             {allProducts[current].map(({name,price,weight,img,count,desc},i)=>(
                  <div className="product" key={i}>
                      <div className="p-name">
                          <h5>{name}</h5>
                          <div className="p-weight">
-                             <p>{weight}KG</p>
+                             <p>{weight}{desc}</p>
                              <p className="p-price">{formatter.format(price)}</p>
                          </div>
                      </div>

@@ -5,6 +5,7 @@
             "price": 45,
             "weight": "1",
             "img":"https://i.ibb.co/dp2x2zt/banana.png",
+            "desc": "Kg",
             "count": 1
         },
         {  
@@ -12,13 +13,15 @@
             "price": 180,
             "weight": "1",
             "img":"./Images/Veggie/strawberry.png",
+            "desc": "Kg",
             "count": 1
         },
         {  
             "name": "orange",
             "price": 75,
             "weight": "1",
-            "img":"./Images/Veggie/orange.png",
+            "img":"https://i.ibb.co/kDNTqPD/orange.png",
+            "desc": "Kg",
             "count": 1
         },
         {  
@@ -26,6 +29,7 @@
             "price": 72,
             "weight": "1",
             "img":"https://i.ibb.co/wJHqgvY/apple.png",
+            "desc": "Kg",
             "count": 1
         },
         {  
@@ -33,6 +37,7 @@
             "price": 35,
             "weight": "1",
             "img":"./Images/Veggie/muskmelon.jpg",
+            "desc": "Kg",
             "count": 1
         },
         {  
@@ -40,6 +45,7 @@
             "price": 22,
             "weight": "1",
             "img":"./Images/Veggie/lemon.png",
+            "desc": "Kg",
             "count": 1
         },
         {  
@@ -47,6 +53,7 @@
             "price": 75,
             "weight": "1",
             "img":"./Images/Veggie/blueberry.png",
+            "desc": "Kg",
             "count": 1
         },
         {  
@@ -54,6 +61,7 @@
             "price": 60,
             "weight": "1",
             "img":"./Images/Veggie/grapes.png",
+            "desc": "Kg",
             "count": 1
         },
         {  
@@ -61,6 +69,7 @@
             "price": 78,
             "weight": "1",
             "img":"./Images/Veggie/pineapple.webp",
+            "desc": "Kg",
             "count": 1
         },
         {  
@@ -68,6 +77,7 @@
             "price": 75,
             "weight": "1",
             "img":"./Images/Veggie/mushroom.jpg",
+            "desc": "Kg",
             "count": 1
         },
         {  
@@ -75,6 +85,7 @@
             "price": 95,
             "weight": "1",
             "img":"./Images/Veggie/pomogranate.png",
+            "desc": "Kg",
             "count": 1
         },
         {  
@@ -82,6 +93,7 @@
             "price": 120,
             "weight": "1",
             "img":"./Images/Veggie/broccoli.png",
+            "desc": "Kg",
             "count": 1
         },
         {  
@@ -89,6 +101,7 @@
             "price": 180,
             "weight": "1",
             "img":"./Images/Veggie/strawberry.png",
+            "desc": "Kg",
             "count": 1
         },
         {  
@@ -96,6 +109,7 @@
             "price": 75,
             "weight": "1",
             "img":"./Images/Veggie/orange.png",
+            "desc": "Kg",
             "count": 1
         },
         {  
@@ -103,6 +117,7 @@
             "price": 72,
             "weight": "1",
             "img":"./Images/Veggie/apple.png",
+            "desc": "Kg",
             "count": 1
         },
         {  
@@ -110,6 +125,7 @@
             "price": 75,
             "weight": "1",
             "img":"./Images/Veggie/blueberry.png",
+            "desc": "Kg",
             "count": 1
         }
     ],
@@ -119,6 +135,7 @@
             "price": 45,
             "weight": "1",
             "img":"./Images/Veggie/banana.png",
+            "desc": "L",
             "count":1
         },
         {  
@@ -126,6 +143,7 @@
             "price": 180,
             "weight": "1",
             "img":"./Images/Veggie/strawberry.png",
+            "desc": "L",
             "count":1
         },
         {  
@@ -133,6 +151,7 @@
             "price": 75,
             "weight": "1",
             "img":"./Images/Veggie/orange.png",
+            "desc": "L",
             "count":1
         },
         {  
@@ -140,6 +159,7 @@
             "price": 72,
             "weight": "1",
             "img":"./Images/Veggie/apple.png",
+            "desc": "L",
             "count":1
         },
         {  
@@ -147,6 +167,7 @@
             "price": 35,
             "weight": "1",
             "img":"./Images/Veggie/muskmelon.jpg",
+            "desc": "L",
             "count":1
         },
         {  
@@ -154,6 +175,7 @@
             "price": 22,
             "weight": "1",
             "img":"./Images/Veggie/lemon.png",
+            "desc": "L",
             "count":1
         },
         {  
@@ -161,6 +183,7 @@
             "price": 75,
             "weight": "1",
             "img":"./Images/Veggie/blueberry.png",
+            "desc": "L",
             "count":1
         },
         {  
@@ -168,6 +191,7 @@
             "price": 60,
             "weight": "1",
             "img":"./Images/Veggie/grapes.png",
+            "desc": "L",
             "count":1
         },
         {  
@@ -175,6 +199,7 @@
             "price": 78,
             "weight": "1",
             "img":"./Images/Veggie/pineapple.webp",
+            "desc": "L",
             "count":1
         },
         {  
@@ -182,6 +207,7 @@
             "price": 75,
             "weight": "1",
             "img":"./Images/Veggie/mushroom.jpg",
+            "desc": "L",
             "count":1
         },
         {  
@@ -189,6 +215,7 @@
             "price": 95,
             "weight": "1",
             "img":"./Images/Veggie/pomogranate.png",
+            "desc": "L",
             "count":1
         },
         {  
@@ -196,6 +223,7 @@
             "price": 120,
             "weight": "1",
             "img":"./Images/Veggie/broccoli.png",
+            "desc": "L",
             "count":1
         },
         {  
@@ -203,6 +231,7 @@
             "price": 180,
             "weight": "1",
             "img":"./Images/Veggie/strawberry.png",
+            "desc": "L",
             "count":1
         },
         {  
@@ -210,6 +239,7 @@
             "price": 75,
             "weight": "1",
             "img":"./Images/Veggie/orange.png",
+            "desc": "L",
             "count":1
         },
         {  
@@ -217,6 +247,7 @@
             "price": 72,
             "weight": "1",
             "img":"./Images/Veggie/apple.png",
+            "desc": "L",
             "count":1
         },
         {  
@@ -224,6 +255,7 @@
             "price": 75,
             "weight": "1",
             "img":"./Images/Veggie/blueberry.png",
+            "desc": "L",
             "count":1
         }
     ]
