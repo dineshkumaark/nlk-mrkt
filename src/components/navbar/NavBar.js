@@ -34,7 +34,7 @@ function NavBar(props){
                         <li><a href="#" className="m-hide">My Account</a></li>
                         <li><a href="#" className="m-hide">Orders</a></li>
                         <li><a href="#" className="m-hide">Coupouns</a></li>
-                        <li onClick={()=> showCart()}><img src="./Images/shopping-basket.svg" width="30px" height="30px" alt="shopping basket"/>{(props.carts.length > 0) ? <span className="badge">{props.carts.length}</span> : ''}</li>
+                        <li onClick={()=> showCart()} className="cart-icon"><img src="./Images/shopping-basket.svg" width="30px" height="30px" alt="shopping basket"/>{(props.carts.length > 0) ? <span className="badge">{props.carts.length}</span> : ''}</li>
                     </ul>
                     {(props.cart.showModel) ?
                      <div className="modal">

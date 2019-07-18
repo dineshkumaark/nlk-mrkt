@@ -63,7 +63,7 @@ nav{
 .main-nav .cart-prop li{
     margin-right: 35px;
 }
-.main-nav .cart-prop li:nth-child(4){
+.cart-icon{
     margin-top: -8px;
     cursor: pointer;
 }
