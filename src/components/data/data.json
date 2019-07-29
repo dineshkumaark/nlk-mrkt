@@ -132,7 +132,7 @@
     "Dairy" :[
         {  
             "name": "milk",
-            "price": 45,
+            "price": 35,
             "weight": "1",
             "img":"./Images/Veggie/banana.png",
             "desc": "L",
